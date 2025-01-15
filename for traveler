@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom Travel Plan Service for Tourists in Japan. Tailored itineraries to make your trip unforgettable!">
+    <title>Explore Japan with Your Custom Travel Plan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #555;
+        }
+        header p {
+            margin: 0.5rem 0 1.5rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .service {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .cta {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta a {
+            background: #ff6600;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .cta a:hover {
+            background: #e65c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Japan with Your Custom Travel Plan</h1>
+        <p>Your journey, your way. Let us design a travel experience tailored to your interests and needs.</p>
+    </header>
+
+    <div class="container">
+        <section class="services">
+            <div class="service">
+                <h3>Custom Itineraries</h3>
+                <p>Personalized plans for your unique journey, including top destinations and hidden gems.</p>
+            </div>
+            <div class="service">
+                <h3>Travel Support</h3>
+                <p>Guidance on transportation, accommodations, and dining to make your trip seamless.</p>
+            </div>
+            <div class="service">
+                <h3>Reservation Assistance</h3>
+                <p>We help you book restaurants, tickets, and accommodations effortlessly.</p>
+            </div>
+            <div class="service">
+                <h3>24/7 Chat Support</h3>
+                <p>Get real-time help during your trip for any questions or concerns.</p>
+            </div>
+        </section>
+
+        <div class="cta">
+            <a href="#contact">Get Your Custom Plan Now</a>
+        </div
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:info@traveljapan.com">info@traveljapan.com</a> or fill out the form below to start your journey!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Explore Japan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
